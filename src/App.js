@@ -1,9 +1,15 @@
-import './App.css';
+import React from "react";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div>
-      <h1>Hallo Welt!</h1>
+      <div className="wrapper">
+      <Header />
+        <div className="content">
+          <h1>Willkommen Content!</h1>
+        </div>
+      </div>
     </div>
   );
 }
