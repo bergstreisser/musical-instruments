@@ -4,10 +4,10 @@ import Header from "./components/Header";
 function App() {
   return (
     <div>
+      <div className="header"><Header /></div>
       <div className="wrapper">
-      <Header />
         <div className="content">
-          <h1>Willkommen Content!</h1>
+          <h1>The best mp3 backing tracks</h1>
         </div>
       </div>
     </div>

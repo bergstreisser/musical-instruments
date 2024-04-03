@@ -5,8 +5,8 @@ function Header(props) {
 
     return (
         <header>
-            <div className="header">
-                <h1>Hallo Header</h1>
+            <div>
+                <img src="img/header.jpg" alt="header" />
             </div>
         </header>
     );

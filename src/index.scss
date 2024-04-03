@@ -3,25 +3,34 @@ body {
   font-family: system-ui;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #cfbb97b9;
+  background-color: #d6c8b6;
+}
+
+.header {
+  margin: 50px auto;
+  max-width: 1200px;
+
+  img {
+    width: 1200px;
+    height: 280px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
 }
 
 .wrapper {
   background: #FFFFFF;
-  border-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
   max-width: 1200px;
-  margin: 50px auto;
+  margin: -55px auto;
   margin-bottom: 50px;
-  padding-bottom: 1120px;
-
-  .header {
-    text-align: center;
-    padding-top: 10px;
-    border-bottom: 1px solid #ebdab2d9;
-  }
+  padding-bottom: 1100px;
 
   h1 {
+    text-align: center;
     margin-top: 20px;
+    padding-top: 20px;
     margin-left: 20px;
     color: #662E1C;
   }
