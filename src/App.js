@@ -7,7 +7,7 @@ function App() {
       <div className="header"><Header /></div>
       <div className="wrapper">
         <div className="content">
-          <h1>The best mp3 backing tracks</h1>
+          <h1>Die besten MP3-Playbacks</h1>
         </div>
       </div>
     </div>
