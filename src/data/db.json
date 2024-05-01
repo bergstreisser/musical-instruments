@@ -1,0 +1,16 @@
+[
+    {
+      "id": "1",
+      "bezeichnung": "Spaghetti",
+      "beschreibung": "Sehr leckere Spaghetti...",
+      "url": "img/spaghetti.jpg",
+      "alt": "Spaghetti"
+    },
+    {
+      "id": "2",
+      "bezeichnung": "Milchreis",
+      "beschreibung": "...",
+      "url": "img/milchreis.jpg",
+      "alt": "Reis"
+    }
+]
