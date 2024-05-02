@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import "./scss/app.scss"
-import Playback from "./components/Playback";
+import Instrument from "./components/Instrument";
 
 function App() {
   return (
@@ -11,12 +11,10 @@ function App() {
       </div>
       <div className="wrapper">
         <div className="content">
-          <h1>Alle MP3-Playbacks</h1>
-          <div className="playbacks">
-            <Playback />
-            <Playback />
-            <Playback />
-            <Playback />
+          <h1>Alle Musik-Instrumente</h1>
+          <div className="instruments">
+            <Instrument />
+            <Instrument />
           </div>
         </div>
       </div>

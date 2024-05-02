@@ -37,21 +37,22 @@ body {
   }
 }
 
-.playbacks {
+.instruments {
   display: flex;
 }
 
-.playback {
+.instrument {
   border: 1px solid #662E1C;
+  border-radius: 7px;
   margin-left: 20px;
-  width: 250px;
+  width: 180px;
 
   .img {
-    width: 230px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     margin-top: 10px;
     margin-left: 10px;
-    border-radius: 2px;
+    border-radius: 5px;
   }
 
   .title {
