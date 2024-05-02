@@ -4,9 +4,9 @@ function Instrument(props) {
 
     return (
         <div className='instrument'>
-            <img className='img' src="img/violin1.png" alt="violin" />
-            <h4 className='title'>Bezeichnung</h4>
-            <h5 className='beschreibung'>Beschreibung...</h5>
+            <img className='img' src={props.img} alt={props.alt} />
+            <h4 className='title'>{props.title}</h4>
+            <h5 className='beschreibung'>{props.description}</h5>
         </div>
     );
 }
