@@ -1,4 +1,5 @@
 import React from 'react';
+import header from "../assets/img/header.jpg";
 
 function Header(props) {
 
@@ -6,7 +7,7 @@ function Header(props) {
     return (
         <header>
             <div>
-                <img src="img/header.jpg" alt="header" />
+                <img src={header} alt="header" />
             </div>
         </header>
     );

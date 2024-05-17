@@ -1,4 +1,5 @@
 import React from 'react';
+import add from "../assets/img/add.png";
 
 function Instrument({ img, alt, title, description, price }) {
 
@@ -12,7 +13,7 @@ function Instrument({ img, alt, title, description, price }) {
                     <p className='price'>Preis: {price} €</p>
                 </div>
                 <div className='buy'>
-                    <img className='add' src='img/add.png' alt='add' />
+                    <img className='add' src={add} alt='add' />
                     <p className='number'>5</p>
                 </div>
             </div>

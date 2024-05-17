@@ -1,16 +1,42 @@
 [
     {
       "id": "1",
-      "bezeichnung": "Spaghetti",
-      "beschreibung": "Sehr leckere Spaghetti...",
-      "url": "img/spaghetti.jpg",
-      "alt": "Spaghetti"
+      "img": "img/violin1.png",
+      "alt": "violin",
+      "title": "Violine",
+      "description": "Eine sehr schöne Violine...",
+      "price": "1500"
     },
     {
       "id": "2",
-      "bezeichnung": "Milchreis",
-      "beschreibung": "...",
-      "url": "img/milchreis.jpg",
-      "alt": "Reis"
+      "img": "img/drums.png",
+      "alt": "drums",
+      "title": "Drums",
+      "description": "Drums...",
+      "price": "1200"
+    },
+    {
+      "id": "3",
+      "img": "img/saxophone.png",
+      "alt": "saxophone",
+      "title": "Saxophone",
+      "description": "Saxofon ...",
+      "price": "2500"
+    },
+    {
+      "id": "4",
+      "img": "img/piano.png",
+      "alt": "piano",
+      "title": "Piano",
+      "description": "Ein schönes Klavier...",
+      "price": "8500"
+    },
+    {
+      "id": "5",
+      "img": "img/acoustic-guitar.png",
+      "alt": "guitar",
+      "title": "Gitarre",
+      "description": "Schöne Gitarre...",
+      "price": "450"
     }
 ]
