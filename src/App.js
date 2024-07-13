@@ -1,8 +1,10 @@
 import React from "react";
 import Header from "./components/Header";
-import "./scss/app.scss";
-import violine from "../src/assets/img/violin1.png";
+import Categories from "./components/Categories";
 import Instrument from "./components/Instrument";
+import add from "../src/assets/add.png"
+import data from "./data/db.json";
+import "./scss/app.scss";
 
 function App() {
   return (
@@ -12,9 +14,12 @@ function App() {
       </div>
       <div className="wrapper">
         <div className="content">
-          <h1>Alle Musik-Instrumente</h1>
+          <div className="categories">
+            <Categories />
+          </div>
+          <h1>Musik-Instrumente</h1>
           <div className="instruments">
-            <Instrument img={violine} alt="violine" title="Violine" description="Eine sehr schöne Violine..." price={1500} />
+            {data.map((obj) => <Instrument key={obj.id} {...obj} add={add} />)} 
           </div>
         </div>
       </div>

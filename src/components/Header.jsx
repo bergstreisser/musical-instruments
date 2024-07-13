@@ -1,8 +1,7 @@
 import React from 'react';
-import header from "../assets/img/header.jpg";
+import header from "../assets/header.jpg";
 
-function Header(props) {
-
+function Header() {
 
     return (
         <header>

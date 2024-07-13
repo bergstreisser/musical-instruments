@@ -9,7 +9,10 @@ body {
 
 .header {
   margin: 50px auto;
+  margin-bottom: 48px;
   max-width: 1200px;
+  //border-bottom-style: dotted;
+  //border-bottom-color: #d6c8b6;
 
   img {
     width: 1200px;
@@ -30,21 +33,55 @@ body {
 
   h1 {
     //text-align: center;
-    margin-top: 20px;
-    padding-top: 20px;
+    margin-top: 10px;
     margin-left: 20px;
     color: #662E1C;
   }
 }
 
+.categories {
+  background-color: #000000;
+}
+
+.category {
+  .active {
+    color: #FFFFFF;
+    background-color: #662E1C;
+  }
+
+  ul {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+    li {
+      width: 125px;
+      height: 30px;
+      margin-right: 10px;
+      padding-top: 7px;
+      font-size: 16px;
+      border-radius: 10px;
+      color: #662E1C;
+      background-color: #fee1c0fb;
+      font-weight: bold;
+      list-style: none;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+}
+
 .instruments {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .instrument {
   border: 2px solid #662E1C;
   border-radius: 7px;
   margin-left: 20px;
+  margin-top: 20px;
   width: 212px;
 
   .img {
@@ -99,8 +136,8 @@ body {
         text-align: center;
         font-size: 14px;
         color: #FFFFFF;
-        border: 1px solid #c04320;
-        background-color: #c04320;
+        border: 1px solid #9f432a;
+        background-color: #9f432a;
         border-radius: 250px;
         width: 20px;
         height: 20px;
