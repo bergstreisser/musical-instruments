@@ -5,7 +5,8 @@
       "alt": "violin",
       "title": "Violine",
       "description": "Eine sehr schöne Violine...",
-      "price": "1500"
+      "price": "1500",
+      "category": "streicher"
     },
     {
       "id": "2",
@@ -29,7 +30,7 @@
       "alt": "piano",
       "title": "Piano",
       "description": "Ein schönes Klavier...",
-      "price": "8500"
+      "price": "5500"
     },
     {
       "id": "5",
@@ -69,7 +70,7 @@
       "alt": "piano",
       "title": "Piano",
       "description": "Ein schönes Klavier...",
-      "price": "8500"
+      "price": "5500"
     },
     {
       "id": "10",

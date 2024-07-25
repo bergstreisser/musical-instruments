@@ -1,12 +1,14 @@
 import React from "react";
 import Header from "./components/Header";
 import Categories from "./components/Categories";
-import Instrument from "./components/Instrument";
-import add from "../src/assets/add.png"
-import data from "./data/db.json";
 import "./scss/app.scss";
+import { Home } from "./pages/Home";
+import { NotFound } from "./pages/NotFound";
+import { Routes, Route } from "react-router-dom";
+import { Cart } from "./pages/Cart";
 
 function App() {
+
   return (
     <div>
       <div className="header">
@@ -17,10 +19,11 @@ function App() {
           <div className="categories">
             <Categories />
           </div>
-          <h1>Musik-Instrumente</h1>
-          <div className="instruments">
-            {data.map((obj) => <Instrument key={obj.id} {...obj} add={add} />)} 
-          </div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
         </div>
       </div>
     </div>
