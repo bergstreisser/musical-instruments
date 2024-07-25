@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Header() {
 
     return (
-        <Link to='/'>
+        <Link to='/musical-instruments/'>
             <header>
                 <div>
                     <img src={header} alt="header" />

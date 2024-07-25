@@ -20,7 +20,7 @@ function App() {
             <Categories />
           </div>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/musical-instruments/" element={<Home />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
