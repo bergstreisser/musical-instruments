@@ -1,12 +1,16 @@
 import React from 'react'
+import AppContext from '../context';
 
 function Categories() {
-    const [activeCategory, setCategoryActive] = React.useState(0);
     const categories = ['Alle', 'Tasten', 'Gitarren', 'Streicher', 'Bläser', 'Drums'];
+    const [activeCategory, setCategoryActive] = React.useState(0);
+
+    const { setCurrentCategory } = React.useContext(AppContext);
 
     const setCategoriy = (index) => {
         setCategoryActive(index);
-    }
+        setCurrentCategory(index);
+    };
 
     return (
 

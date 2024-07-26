@@ -1,14 +1,21 @@
 import React from 'react'
+import AppContext from '../context';
 
 import Instrument from "../components/Instrument";
 import add from "../assets/add.png"
-import data from "../data/db.json";
-import "../scss/app.scss";
-import Skeleton from "../components/Skeleton";
 import { Link } from 'react-router-dom';
+import "../scss/app.scss";
 
 export const Home = () => {
-    const [isLoading, setIsloading] = React.useState(false);
+    const { data, category = [] } = React.useContext(AppContext);
+    
+    let categoryData = [];
+
+    if(category.length === 0) {
+        categoryData = data;
+    } else {
+        categoryData = category;
+    }
 
     return (
         <div>
@@ -25,9 +32,7 @@ export const Home = () => {
             </div>
 
             <div className="instruments">
-                {
-                    data.map((obj) => isLoading ? <Skeleton key={obj.id} /> : <Instrument key={obj.id} {...obj} add={add} />)
-                }
+                {categoryData.map((obj) => <Instrument key={obj.id} {...obj} add={add} />)}
             </div>
         </div>
     )

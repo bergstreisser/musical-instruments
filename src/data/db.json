@@ -6,7 +6,7 @@
       "title": "Violine",
       "description": "schöne Violine...",
       "price": "1500",
-      "category": "streicher"
+      "category": 3
     },
     {
       "id": "2",
@@ -14,7 +14,8 @@
       "alt": "drums",
       "title": "Drums",
       "description": "Drums...",
-      "price": "1200"
+      "price": "1200",
+      "category": 5
     },
     {
       "id": "3",
@@ -22,7 +23,8 @@
       "alt": "saxophone",
       "title": "Saxophone",
       "description": "Saxofon ...",
-      "price": "2500"
+      "price": "2500",
+      "category": 4
     },
     {
       "id": "4",
@@ -30,7 +32,8 @@
       "alt": "piano",
       "title": "Piano",
       "description": "Ein schönes Klavier...",
-      "price": "5500"
+      "price": "5500",
+      "category": 1
     },
     {
       "id": "5",
@@ -38,7 +41,8 @@
       "alt": "guitar",
       "title": "Gitarre",
       "description": "Schöne Gitarre...",
-      "price": "450"
+      "price": "450",
+      "category": 2
     },
     {
       "id": "6",
@@ -46,7 +50,8 @@
       "alt": "violin",
       "title": "Violine",
       "description": "schöne Violine...",
-      "price": "1500"
+      "price": "1500",
+      "category": 3
     },
     {
       "id": "7",
@@ -54,7 +59,8 @@
       "alt": "drums",
       "title": "Drums",
       "description": "Drums...",
-      "price": "1200"
+      "price": "1200",
+      "category": 5
     },
     {
       "id": "8",
@@ -62,7 +68,8 @@
       "alt": "saxophone",
       "title": "Saxophone",
       "description": "Saxofon ...",
-      "price": "2500"
+      "price": "2500",
+      "category": 4
     },
     {
       "id": "9",
@@ -70,7 +77,8 @@
       "alt": "piano",
       "title": "Piano",
       "description": "Ein schönes Klavier...",
-      "price": "5500"
+      "price": "5500",
+      "category": 1
     },
     {
       "id": "10",
@@ -78,6 +86,52 @@
       "alt": "guitar",
       "title": "Gitarre",
       "description": "Schöne Gitarre...",
-      "price": "450"
+      "price": "450",
+      "category": 2
+    },
+    {
+      "id": "11",
+      "img": "img/violin1.png",
+      "alt": "violin",
+      "title": "Violine",
+      "description": "schöne Violine...",
+      "price": "1500",
+      "category": 3
+    },
+    {
+      "id": "12",
+      "img": "img/drums.png",
+      "alt": "drums",
+      "title": "Drums",
+      "description": "Drums...",
+      "price": "1200",
+      "category": 5
+    },
+    {
+      "id": "13",
+      "img": "img/saxophone.png",
+      "alt": "saxophone",
+      "title": "Saxophone",
+      "description": "Saxofon ...",
+      "price": "2500",
+      "category": 4
+    },
+    {
+      "id": "14",
+      "img": "img/piano.png",
+      "alt": "piano",
+      "title": "Piano",
+      "description": "Ein schönes Klavier...",
+      "price": "5500",
+      "category": 1
+    },
+    {
+      "id": "15",
+      "img": "img/acoustic-guitar.png",
+      "alt": "guitar",
+      "title": "Gitarre",
+      "description": "Schöne Gitarre...",
+      "price": "450",
+      "category": 2
     }
 ]
