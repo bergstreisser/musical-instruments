@@ -1,7 +1,6 @@
 import React from "react";
 
 import Header from "./components/Header";
-import Categories from "./components/Categories";
 import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
 import { Routes, Route } from "react-router-dom";
@@ -25,9 +24,6 @@ function App() {
         </div>
         <div className="wrapper">
           <div className="content">
-            <div className="categories">
-              <Categories />
-            </div>
             <Routes>
               <Route path="/musical-instruments/" element={<Home />} />
               <Route path="/cart" element={<Cart />} />
