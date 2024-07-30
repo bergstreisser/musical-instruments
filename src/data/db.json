@@ -4,7 +4,7 @@
       "img": "img/violin1.png",
       "alt": "violin",
       "title": "Violine",
-      "description": "schöne Violine...",
+      "description": "Schöne Violine",
       "price": "1500",
       "category": 3
     },
@@ -13,7 +13,7 @@
       "img": "img/drums.png",
       "alt": "drums",
       "title": "Drums",
-      "description": "Drums...",
+      "description": "Kompakter Drumset",
       "price": "1200",
       "category": 5
     },
@@ -22,7 +22,7 @@
       "img": "img/saxophone.png",
       "alt": "saxophone",
       "title": "Saxophone",
-      "description": "Saxofon ...",
+      "description": "Saxofon mit Zubehör",
       "price": "2500",
       "category": 4
     },
@@ -31,7 +31,7 @@
       "img": "img/piano.png",
       "alt": "piano",
       "title": "Piano",
-      "description": "Ein schönes Klavier...",
+      "description": "Kompakter Flügel",
       "price": "5500",
       "category": 1
     },
@@ -40,98 +40,125 @@
       "img": "img/acoustic-guitar.png",
       "alt": "guitar",
       "title": "Gitarre",
-      "description": "Schöne Gitarre...",
+      "description": "Akustische Gitarre",
       "price": "450",
       "category": 2
     },
     {
       "id": "6",
-      "img": "img/violin1.png",
+      "img": "img/music-4116645_640.webp",
       "alt": "violin",
       "title": "Violine",
-      "description": "schöne Violine...",
-      "price": "1500",
+      "description": "Violine mit Zubehör",
+      "price": "1700",
       "category": 3
     },
     {
       "id": "7",
-      "img": "img/drums.png",
-      "alt": "drums",
-      "title": "Drums",
-      "description": "Drums...",
-      "price": "1200",
-      "category": 5
+      "img": "img/akustische-Gtr.jpg",
+      "alt": "guitar",
+      "title": "Gitarre",
+      "description": "Akustische Gitarre",
+      "price": "550",
+      "category": 2
     },
     {
       "id": "8",
-      "img": "img/saxophone.png",
-      "alt": "saxophone",
-      "title": "Saxophone",
-      "description": "Saxofon ...",
-      "price": "2500",
-      "category": 4
-    },
-    {
-      "id": "9",
-      "img": "img/piano.png",
+      "img": "img/grand-piano.png",
       "alt": "piano",
       "title": "Piano",
-      "description": "Ein schönes Klavier...",
-      "price": "5500",
+      "description": "Grand Piano",
+      "price": "7500",
       "category": 1
     },
     {
-      "id": "10",
-      "img": "img/acoustic-guitar.png",
+      "id": "9",
+      "img": "img/guitar-2119_1280.jpg",
       "alt": "guitar",
       "title": "Gitarre",
-      "description": "Schöne Gitarre...",
+      "description": "Nylon Gitarre",
       "price": "450",
       "category": 2
     },
     {
-      "id": "11",
-      "img": "img/violin1.png",
+      "id": "10",
+      "img": "img/instrument-2505099_640.jpg",
       "alt": "violin",
       "title": "Violine",
-      "description": "schöne Violine...",
-      "price": "1500",
+      "description": "Violine mit Zubehör",
+      "price": "1800",
       "category": 3
     },
     {
+      "id": "11",
+      "img": "img/electric-guitar-1669233_640.webp",
+      "alt": "guitar",
+      "title": "Gitarre",
+      "description": "Elektrische Gitarre",
+      "price": "450",
+      "category": 2
+    },
+    {
       "id": "12",
-      "img": "img/drums.png",
+      "img": "img/drums-31362_640.webp",
       "alt": "drums",
       "title": "Drums",
-      "description": "Drums...",
-      "price": "1200",
+      "description": "Drumset mit Hi-Hat",
+      "price": "1400",
       "category": 5
     },
     {
       "id": "13",
-      "img": "img/saxophone.png",
-      "alt": "saxophone",
-      "title": "Saxophone",
-      "description": "Saxofon ...",
-      "price": "2500",
-      "category": 4
+      "img": "img/small-drum-1377494_640.webp",
+      "alt": "drums",
+      "title": "Drums",
+      "description": "Kleine Trommel",
+      "price": "800",
+      "category": 5
     },
     {
       "id": "14",
-      "img": "img/piano.png",
-      "alt": "piano",
-      "title": "Piano",
-      "description": "Ein schönes Klavier...",
-      "price": "5500",
-      "category": 1
+      "img": "img/musical-4009231_640.webp",
+      "alt": "trompete",
+      "title": "Trompete",
+      "description": "Trompete mit Zubehör",
+      "price": "2200",
+      "category": 4
     },
     {
       "id": "15",
-      "img": "img/acoustic-guitar.png",
-      "alt": "guitar",
-      "title": "Gitarre",
-      "description": "Schöne Gitarre...",
-      "price": "450",
-      "category": 2
+      "img": "img/saxophone-1672675_640.webp",
+      "alt": "saxophone",
+      "title": "Saxophone",
+      "description": "Saxophone mit Zubehör",
+      "price": "2700",
+      "category": 4
+    },
+    {
+      "id": "16",
+      "img": "img/violin-5964392_640.webp",
+      "alt": "violin",
+      "title": "Violine",
+      "description": "Violine mit Zubehör",
+      "price": "1800",
+      "category": 3
+    },
+    {
+      "id": "17",
+      "img": "img/piano-2378301_640.webp",
+      "alt": "piano",
+      "title": "Piano",
+      "description": "Kompakter Flügel",
+      "price": "5000",
+      "category": 1
+    },
+    {
+      "id": "18",
+      "img": "img/instrument-7046209_640.webp",
+      "alt": "piano",
+      "title": "Piano",
+      "description": "Großer Flügel",
+      "price": "8000",
+      "category": 1
     }
 ]

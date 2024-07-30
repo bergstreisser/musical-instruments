@@ -31,7 +31,7 @@ export const Home = () => {
                 <Link to='/cart'>
                     <div className="cart">
                         <img src="img/cart.svg" alt="cart"></img>
-                        <div className="betrag">2000.00 €</div>
+                        <div className="betrag">00.00 €</div>
                     </div>
                 </Link>
             </div>
