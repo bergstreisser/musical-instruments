@@ -1,14 +1,21 @@
 import React from 'react'
 import AppContext from '../context';
+import { useSelector, useDispatch } from 'react-redux';
+import { setCategoryActive } from '../redux/slices/filterSlice';
 
 function Categories() {
     const categories = ['Alle', 'Tasten', 'Gitarren', 'Streicher', 'Bläser', 'Drums'];
-    const [activeCategory, setCategoryActive] = React.useState(0);
+
+    //const [activeCategory, setCategoryActive] = React.useState(0); 
+    const activeCategory = useSelector((state) => state.filterReducer.activeCategory);
+    const dispatch = useDispatch();
 
     const { setCurrentCategory } = React.useContext(AppContext);
 
     const setCategoriy = (index) => {
-        setCategoryActive(index);
+        dispatch(setCategoryActive(index))
+        //setCategoryActive(index);
+        console.log('Test', index);
         setCurrentCategory(index);
     };
 

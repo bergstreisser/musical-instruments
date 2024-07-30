@@ -1,11 +1,12 @@
 import React from 'react'
+import Categories from "../components/Categories";
 import "../scss/app.scss";
 
 export const Cart = () => {
   return (
     <div>
       <div className="categories">
-        <h1>Musik-Instrumente</h1>
+        <Categories />
       </div>
       <div className="title">
         <div>

@@ -1,6 +1,4 @@
 import React from "react";
-import { useSelector, useDispatch } from 'react-redux'
-import { decrement, increment } from './redux/slices/filterSlice.js'
 import Header from "./components/Header";
 import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
@@ -11,9 +9,6 @@ import data from "./data/db.json";
 import "./scss/app.scss";
 
 function App() {
-  const count = useSelector((state) => state.value);
-  const dispatch = useDispatch();
-
   const [currentCategory, setCurrentCategory] = React.useState(0);
 
   const category = data.filter((item) => {
