@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/musical-instruments/static/css/main.ee3d78c8.css",
-    "main.js": "/musical-instruments/static/js/main.a71b413f.js",
+    "main.css": "/musical-instruments/static/css/main.ef2e2438.css",
+    "main.js": "/musical-instruments/static/js/main.0d9abe73.js",
     "static/media/header.jpg": "/musical-instruments/static/media/header.c8d7ce5354d0f62e9d85.jpg",
     "index.html": "/musical-instruments/index.html",
-    "main.ee3d78c8.css.map": "/musical-instruments/static/css/main.ee3d78c8.css.map",
-    "main.a71b413f.js.map": "/musical-instruments/static/js/main.a71b413f.js.map"
+    "main.ef2e2438.css.map": "/musical-instruments/static/css/main.ef2e2438.css.map",
+    "main.0d9abe73.js.map": "/musical-instruments/static/js/main.0d9abe73.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee3d78c8.css",
-    "static/js/main.a71b413f.js"
+    "static/css/main.ef2e2438.css",
+    "static/js/main.0d9abe73.js"
   ]
 }
